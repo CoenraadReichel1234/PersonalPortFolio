@@ -14,44 +14,317 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-US-Compatible" content="IE=edge">
     <title>Coenraad Reichel</title>
-    <link rel="stylesheet" href="PortFolioCSS.css">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Styling.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header">
-        <a href="index.html" class="logo">Coenraad.</a>
-        <nav class="navbar">
-            <a href="index.html" class="active">Home</a>
-            <a href="SkillsPortFolio.html">Skills</a>
-            <a href="ContactPortFolio.html">Contact</a>
-        </nav>
-    </header><br><br>
-    <img align="right" src="home.png" alt="Coenraad Reichel">
+        <a href="#" class="logo">Coenraad.</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
 
-    <section class="home">
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header><br><br><br><br><br>
+    
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="home.png" alt="">
+        </div>
         <div class="home-content">
-            <h1>Hi, I'm Coenraad Reichel</h1>
-            <h3>Software Engineer</h3>
+            <h1>Hi, I'm <span>Coenraad Reichel</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+
             <p>I am enthusiastic, self-motivated, reliable, and responsible person. 
                 I am mature team worker and adaptable to all challenging situations. 
                 I always try to keep people happy by meeting and exceeding their needs and expectations. 
                 I have good communication skills and good in problem solving. 
                 Passionate about quality of service delivered. I have completed my Bachelors of Science in Information Technology (Software Engineering) within the minimum of 3 years.
                 Completing my Honours degree in Software Engineering in 2024.</p>
-                <div class="btn-box">
-                    <a href="ContactPortFolio.html">Let's Talk</a>
+        
+        <div class="social-icon">
+            <a href="https://www.facebook.com/profile.php?id=100009578118305"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/coenraad-reichel-833843226"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/reichelcoenie"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/CoenraadReichel1234"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <a href="#contact" class="btn">Let's Talk</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <br><br><br><br><br>
+        <h2 class="heading">Services</h2>
+
+            <div class="services-container">
+                <div class="service-box">
+                    <div class="service-info">
+                        <h4>Software Engineering</h4>
+                        <p>As a Python software engineer, develop applications, lead projects, write quality code, and collaborate effectively. 
+                            It has helped me to better understand how to develop using Object Oriented Programming. Continuous learning is key!
+                        </p>
+                    </div>
                 </div>
+            
+            
+                <div class="service-box">
+                    <div class="service-info">
+                        <h4>Flutter Development</h4>
+                        <p>Create user-friendly apps compatible with iOS and Android platforms. I have a strong understanding of Dart for Flutter development.
+                            Design visually appealing and functional interfaces. Responsible for concept, design, coding, testing, and API integration.
+                        </p>
+                    </div>
+                </div>
+            
+                <div class="service-box">
+                    <div class="service-info">
+                        <h4>Web Developer</h4>
+                        <p>I can develop clean and professional websites and web applications by using HTML, CSS and a little bit of JavaScript. 
+                            I can use those languages within the Laravel framework, in which php is being used as the backend.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-info">
+                        <h4>Full Stack Developer</h4>
+                        <p>I have both knowledge in frontend and backend development, which gives a wide range of usefull skills that can be used within development.</p>
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-info">
+                        <h4>Frontend Developer</h4>
+                        <p>I have amazing and new ideas for design and frontend purposes. I always try to make any application as User-Friendly and to up the users' experience as much as possible.</p>
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-info">
+                        <h4>Backend Developer</h4>
+                        <p>I have practical experience with Python, SQLite 3, Laravel, PHP and phpMyAdmin. Meaning that I can develop well organized and reliable backend software.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="container">
+            <div class="row" id="skillsContainer">
+                <div class="bar">
+                    <div class="info">
+                        <img src="python.png" alt="">
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="cpp.png" alt="">
+                        <span>C++</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="PHP.jpeg" alt="">
+                        <span>PHP</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="PHPMyAdmin.jpeg" alt="">
+                        <span>phpMyAdmin</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="SQL.jpeg" alt="">
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="Laravel.jpeg" alt="">
+                        <span>Laravel</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="html.png" alt="">
+                        <span>HTML</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="css.png" alt="">
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="flutter.png" alt="">
+                        <span>Flutter</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="github.png" alt="">
+                        <span>Github</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <footer class="footer">
-        <div class="home-sci">
-            <a href="https://www.facebook.com/profile.php?id=100009578118305"><i class="bx bxl-facebook"></i></a>
-            <a href="https://www.linkedin.com/in/coenraad-reichel-833843226"><i class="bx bxl-linkedin" ></i></a>
-            <a href="https://www.instagram.com/reichelcoenie"><i class="bx bxl-instagram" ></i></a>
-            <a href="https://github.com/CoenraadReichel1234"><i class="bx bxl-github" ></i></a>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="timeline">
+            <div class="container right">
+                <div class="content">
+                    <div class="tag">
+                        <h2>High School</h2>
+                    </div>
+                    <div class="decs">
+                        <p>Completed my Matric in 2020, at Hoërskool Lichtenburg</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <div class="tag">
+                        <h2>University</h2>
+                    </div>
+                    <div class="decs">
+                        <p>Completed my 3 year degree in Bachelors of Science in Information Technology (Software Engineering) from 2021 untill 2023 at Eduvos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <div class="tag">
+                        <h2>University</h2>
+                    </div>
+                    <div class="decs">
+                        <p>Busy completing my Honours degree in Software Engineering in the year 2024 at Eduvos.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        </footer>
-        <span class="home-imgHover"></span>
-    </section >
-    
+    </section>
+
+    <section class="experience" id="experience">
+        <h2 class="heading">My <span>Experience</span></h2>
+        <div class="container">
+            <div class="row" id="experienceContainer">
+                <div class="bar">
+                    <div class="info">
+                        <img src="Word.jpeg" alt="">
+                        <span>Advanced Word</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="Excel.jpeg" alt="">
+                        <span>Advanced</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="Power.jpeg" alt="">
+                        <span>Advanced PowerPoint</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="Access.jpeg" alt="">
+                        <span>Advanced Access</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="Alpha.jpeg" alt="">
+                        <span>Alpha Mathematics</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Developed a Website and Mobile application for Dekalb</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Developed a flutter mobile application as a group assignment</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Developed an E-commerce web application as an individual assignment</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Developed another E-commerce web application for a personal challenge/assignment</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Developed a blog web application with user registration using Laravel</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Made use of Object Oriented programming within Python</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Developed this personal Portfolio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <h4 class="heading4">Email:</h4>
+        <div class="mailMe">
+            <a href="mailto:coeniereichel@gmail.com"><i class="fa-regular fa-envelope"></i> Email Me</a>
+        </div>
+        <h4 class="heaidng4">Cellphone:</h4>
+        <div class="mailMe">
+            <a href="tel:+27737166381"><i class="fa-solid fa-phone"></i> Call Me/Whatsapp Me</a>
+        </div>
+            
+        
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=100009578118305"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/coenraad-reichel-833843226"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/reichelcoenie"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/CoenraadReichel1234"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#home">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyright">
+            © Coenraad Reichel | All Right Reserved
+        </p>
+    </footer>
+
 </body>
 </html>
