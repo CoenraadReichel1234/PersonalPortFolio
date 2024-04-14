@@ -12,10 +12,10 @@
 }
 
 :root {
-    --bg-color: #000000;
+    --bg-color: #213457;
     --second-bg-color: #1616166b;
     --text-color: #fff;
-    --main-color: #4537ac;
+    --main-color: #45DFB1;
 }
 
 html {
@@ -49,14 +49,14 @@ html::-webkit-scrollbar-thumb {
     left: 0;
     width: 100%;
     padding: 3rem 9%;
-    background: rgba(0, 0, 0, 0.7);
+    background: #0B6477;
     filter: drop-shadow(10px);
+    opacity: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
-
 .logo {
     font-size: 3rem;
     color: var(--main-color);
