@@ -23,7 +23,7 @@
         <a href="#" class="logo">Coenraad.</a>
         <i class="fa-solid fa-bars" id="menu-icon"></i>
 
-        
+        <div class="menu-toggle"></div>
         <nav class="navbar">
             <a href="#home">Home</a>
             <a href="#services">Services</a>
@@ -33,6 +33,12 @@
             <a href="#contact">Contact</a>
         </nav>
     </header><br><br><br><br><br>
+
+    <script>
+        document.querySelector('#menu-icon').addEventListener('click', function() {
+            document.querySelector('.navbar').classList.toggle('active');
+        });
+</script>
     
 
     <section class="home" id="home">
@@ -218,79 +224,89 @@
     </section>
 
     <section class="experience" id="experience">
-        <h2 class="heading">My <span>Experience</span></h2>
+        <h2 class="heading">My <span>Projects</span></h2>
         <div class="container">
             <div class="row" id="experienceContainer">
+                <a href="https://github.com/CoenraadReichel1234/ittfa-node-website" target="_blank">
                 <div class="bar">
                     <div class="info">
-                        <img src="Word.jpeg" alt="">
-                        <span>Advanced Word</span>
+                        <div class="loader"></div><br>
+                        <span class="text">Node.js</span>
                     </div>
                 </div>
+            </a>
+            <a href="https://github.com/CoenraadReichel1234/ITSMA-REST-API" target="_blank">
                 <div class="bar">
-                    <div class="info">
-                        <img src="Excel.jpeg" alt="">
-                        <span>Advanced</span>
+                    <div class="info"> 
+                    <div class="loader2">
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                    </div>
+                    <span class="text">REST API with PHP</span>
                     </div>
                 </div>
+            </a>
+            <a href="https://github.com/CoenraadReichel1234/itdaa-health-prediction" target="_blank">
                 <div class="bar">
-                    <div class="info">
-                        <img src="Power.jpeg" alt="">
-                        <span>Advanced PowerPoint</span>
+                    <div class="info"> 
+                        <div class="loader3"></div><br>
+
+                        <span class="text">Machine Learning</span>
                     </div>
                 </div>
+            </a>
+            <a href="https://github.com/CoenraadReichel1234/Python-Pygame-PyOpenGL" target="_blank">
                 <div class="bar">
-                    <div class="info">
-                        <img src="Access.jpeg" alt="">
-                        <span>Advanced Access</span>
+                    <div class="info"><br>
+                        
+                        <div class="spinner">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        </div>
+
+                        <span class="text">3D Figures PyOpenGL</span>
                     </div>
                 </div>
+            </a>
+            <a href="https://github.com/CoenraadReichel1234/PlantStand" target="_blank">
                 <div class="bar">
-                    <div class="info">
-                        <img src="Alpha.jpeg" alt="">
-                        <span>Alpha Mathematics</span>
+                    <div class="info"><br><br>
+                        <div class="loader4">
+                        <div class="box box-1">
+                            <div class="side-left"></div>
+                            <div class="side-right"></div>
+                            <div class="side-top"></div>
+                        </div>
+                        <div class="box box-2">
+                            <div class="side-left"></div>
+                            <div class="side-right"></div>
+                            <div class="side-top"></div>
+                        </div>
+                        <div class="box box-3">
+                            <div class="side-left"></div>
+                            <div class="side-right"></div>
+                            <div class="side-top"></div>
+                        </div>
+                        <div class="box box-4">
+                            <div class="side-left"></div>
+                            <div class="side-right"></div>
+                            <div class="side-top"></div>
+                        </div>
+                        </div><br>
+                        <span class="text">Dekalb Application</span>
                     </div>
                 </div>
-                <div class="bar">
-                    <div class="info">
-                        <span>Developed a Website and Mobile application for Dekalb</span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <span>Developed an e-commerce flutter mobile application as a group assignment</span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <span>Developed an E-commerce web application as an individual assignment</span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <span>Developed another E-commerce web application for a personal challenge/assignment</span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <span>Developed a blog web application with user registration using Laravel</span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <span>Made use of Object Oriented programming within Python</span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <span>Developed this personal Portfolio</span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <span>Developed a Unit conversion flutter mobile application</span>
-                    </div>
-                </div>
+            </a>
+                
             </div>
         </div>
     </section>
@@ -304,7 +320,9 @@
         <h4 class="heaidng4">Cellphone:</h4>
         <div class="mailMe">
             <a href="tel:+27737166381"><i class="fa-solid fa-phone"></i> Call Me</a>
+            
         </div>
+
         
             
         
